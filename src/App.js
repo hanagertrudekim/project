@@ -4,6 +4,7 @@ import Complete from "./Complete";
 import Home from "./Home";
 import Reservation from "./Reservation";
 import Return from "./Return";
+import ReturnCheck from "./ReturnCheck";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/return" element={<Return />} />
         <Route path="/reservation/complete" element={<Complete />} />
         <Route path="/return" element={<Return />} />
+        <Route path="/return/check" element={<ReturnCheck />} />
       </Routes>
     </div>
   );

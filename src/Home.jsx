@@ -33,7 +33,7 @@ export default function Home() {
       <TextWrap onClick={() => navigate("/reservation")}>
         <Text>예약하기</Text>
       </TextWrap>
-      <TextWrap onClick={() => navigate("/return")}>
+      <TextWrap onClick={() => navigate("/return/check")}>
         <Text>반납하기</Text>
       </TextWrap>
     </Wrap>
